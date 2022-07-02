@@ -1,0 +1,10 @@
+{
+    "name" : "Joke Extension",
+    "description": "Get a joke everyday",
+    "version" : "0.0.1",
+    "manifest_version":3,
+    "action" : {
+        "default_popup" : "popUp.html",
+        "default_icon" : "favicon.png"
+    }
+}

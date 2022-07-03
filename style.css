@@ -3,6 +3,18 @@ body{
     background-size: cover;
 }
 
+button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    font-size: 22px;
+    position: absolute;
+    right: 17px;
+    top: 21px;
+    background: #f0ffff00;
+}
+
+
 h3{
     font-size: 18px;
     text-align: center;

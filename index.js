@@ -3,8 +3,16 @@ const getJokes = async () => {
         const res = await fetch("https://api.chucknorris.io/jokes/random")
 
         const data = await res.json();
+
+        let string = data.value.toString();
+
+        if(string.includes("Chuck Norris")){
+            
+          string =  string.replace("Chuck Norris", "Amit Mishra")
+            console.log(string);
+        }
         const myJoke = document.getElementById("myJoke");
-        myJoke.innerHTML = data.value;
+        myJoke.innerHTML = string;
 
 
     } catch (error) { }
